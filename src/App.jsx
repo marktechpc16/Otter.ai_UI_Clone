@@ -1,14 +1,7 @@
-import Layout from './components/Layout'
+import MainLayout from "../src/components/layout/MainLayout.jsx";
 
 function App() {
-  return (
-    <Layout>
-      <div className="p-4">
-        <h1 className="text-2xl font-bold">Main Content Area</h1>
-        <p>Your content goes here</p>
-      </div>
-    </Layout>
-  )
+  return <MainLayout />;
 }
 
-export default App
+export default App;
